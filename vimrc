@@ -8,6 +8,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 let g:airline_powerline_fonts = 1
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+Plugin 'plasticboy/vim-markdown'
+Plugin 'godlygeek/tabular'
 call vundle#end()
 filetype plugin indent on
 
